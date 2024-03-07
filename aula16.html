@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado Virtual</title>
+    <link rel="stylesheet" href="aula16.css">
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main id="tela-principal">
+        <h1>Dado Virtual</h1>
+        <section class="conteudo">
+            <p id="sorteado" class="centro">?</p>
+            <figure>
+                <img src="dado/0.png" alt="Dado" id="imgDado">
+            </figure>
+        </section>
+        <p class="centro">
+            <button id="btnSortear">Sortear</button>
+        </p>
+    </main>
+
+    <audio 
+    preload id="dadoRolando" src="assets/dado-rolando.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="aula16.js"></script>
+</body>
+</html>
